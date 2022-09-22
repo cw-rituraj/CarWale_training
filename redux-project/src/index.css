@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(238, 233, 233);
+}
+
+#heading {
+  margin: 0;
+  padding: 0;
+}
+
+.card-wrapper {
+  width: 50vw;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  width: 350px;
+  height: 450px;
+  background: white;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.img-container {
+  width: 100%;
+  height: 50%;
+  background: blueviolet;
+  border-radius: 5px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+
+}
+.card-info-container {
+  padding: 10px;
+  text-align: center;
+}
+.card-name {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 7px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.card-price {
+  position: relative;
+  text-align: left;
+  display: flex;
+}
+
+span {
+  position: absolute;
+  left: 90px;
+  top: 4px;
+  margin: 0 10px;
+}
+
+#offer {
+  margin-left: 50px;
+  color: rgb(31, 124, 160);
+}
+
+.card-button {
+  padding: 10px 5px;
+  width: 90%;
+  font-size: 1.2rem;
+  color: aliceblue;
+  background: red;
+  border: transparent;
+  margin-top: 25px;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
